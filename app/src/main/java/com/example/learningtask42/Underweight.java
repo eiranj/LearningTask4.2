@@ -15,7 +15,7 @@ public class Underweight extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             String value = extras.getString("underweight");
-            //The key argument here must match that used in the other activity
+
             textViewToChange.setText(value);
         }
     }

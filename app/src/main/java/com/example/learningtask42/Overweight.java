@@ -15,7 +15,7 @@ public class Overweight extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             String value = extras.getString("overweight");
-            //The key argument here must match that used in the other activity
+
             textViewToChange.setText(value);
         }
     }
